@@ -50,7 +50,7 @@ $ bundle info jekyll
 - Note: You can also create a new Jekyll site by running the `jekyll new <PATH>` command.
   - E.g., `jekyll new myblog` creates a new Jekyll site at `./myblog`.
   - Jekyll will install a site that uses a gem-based theme called Minima.
-  - See "ThemeS" section below.
+  - See "Themes" section below.
 
 ### Build
 
