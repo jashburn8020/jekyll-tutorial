@@ -1,0 +1,19 @@
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project of the following type.
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "collections" # Any file in the collections folder will use the default_collections layout.
+    values:
+      layout: "default_collections"
