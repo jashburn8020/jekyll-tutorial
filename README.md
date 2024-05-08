@@ -46,7 +46,7 @@ $ bundle info jekyll
 ### Create a site
 
 - Create a new directory for your site
-- Create [`index.html`](index.html) in your site root directory.
+- Create [`index.html`](tutorial_site/index.html) in your site root directory.
 - Note: You can also create a new Jekyll site by running the `jekyll new <PATH>` command.
   - E.g., `jekyll new myblog` creates a new Jekyll site at `./myblog`.
   - Jekyll will install a site that uses a gem-based theme called Minima.
@@ -320,7 +320,7 @@ city: San Francisco
 
 - Blog posts live in a folder called `_posts`.
 - The filename for posts have a special format: the publish date, then a title, followed by an extension.
-- Create your first post at [`_posts/2024-05-06-bananas.md`](tutorial_site/_posts/2024-05-06-bananas.md).
+- Create your first post at [`_posts/2018-08-20-bananas.md`](tutorial_site/_posts/2018-08-20-bananas.md).
   - `author` is a custom variable; it's not required and could have been named something like `creator`.
 - Create more posts:
   - [`_posts/2018-08-21-apples.md`](tutorial_site/_posts/2018-08-21-apples.md)
